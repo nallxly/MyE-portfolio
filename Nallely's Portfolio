@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nallely's e-portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="about-me">
+        <nav>
+        <span id="space">  </span>
+        <ul class="nav__link--list">
+          <li class="nav__link">
+            <a
+              href="#table"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >About Me</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#studies"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Education</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="./assets/WorkResume.pdf"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Resume</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="mailto:nmarti50@pratt.edu"
+              class="nav__link--anchor nav__link--anchor-primary"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="flex flex-1">
+        <div class="about-me__info row">
+          <div class="about-me__info--container">
+            <figure class="footer__logo">
+                <img
+                  src="./assets/PHOTO-2024-10-23-21-36-42-removebg-preview.png"
+                  class="footer__logo--img"
+                  alt=""
+                />
+              </figure>
+            <h1 class="about-me__info--title">
+              Hi! Welcome to my e-porfolio. <br />
+              My name is
+              <span class="text--pink">Nállely</span>
+            </h1>
+            <p class="about-me__info--para">
+              I'm 22 years old an I am studing my dream career, which is
+              <strong class="text--pink">UX design</strong>. My
+              experience with programing languages can help your buisness
+              outstand and grow. As a strong
+              <strong class="text--pink">frontend sofware developer </strong>,
+              I'm confident that I can help build responsive and unique web
+              applications for your company
+              <strong class="text--pink"
+                >putting user experience as a priority</strong
+              >.
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="table">
+      <div class="container">
+        <div class="row">
+            <h2>About Me</h2>
+
+            <table>
+              <tr>
+                <th>Attibute</th>
+                <th>Description</th>
+              </tr>
+              <tr>
+                <td>Name</td>
+                <td>Maria Anders</td>
+              </tr>
+              <tr>
+                <td>Age</td>
+                <td>Francisco Chang</td>
+              </tr>
+              <tr>
+                <td>Born In</td>
+                <td>Roland Mendel</td>
+              </tr>
+              <tr>
+                <td>Favorite Food</td>
+                <td>Helen Bennett</td>
+              </tr>
+              <tr>
+                <td>Past Times</td>
+                <td>Yoshi Tannamuri</td>
+              </tr>
+              <tr>
+                <td>Current Profession</td>
+                <td>Giovanni Rovelli</td>
+              </tr>
+            </table>
+        </div>
+      </div>
+    </section>
+    <section id="studies">
+      <div class="container__studies">
+        <div class="row">
+          <h1>This is my <span class="text--pink">education</span></h1>
+          <div class="studies__info">
+            <h2>Secondary Education:</h2>
+            <p class="studies__info--para">
+              Graduated from high school with a
+              <strong class="text--pink">3.8 GPA </strong>
+            </p>
+            <h2>Undergraduate Degree</h2>
+            <p class="studies__info--para">
+              <strong class="text--pink"
+                >University of Puerto Rico, Campus of Río Piedras</strong
+              >
+              <br />
+              Coursing my last semester for my major in Computer Science. In my
+              Computer Science coursework, I delved into Computer Architecture,
+              Data Structures, Compilers, Algorithms, Operating Systems,
+              Software Engineering, Databases, and Cyber Security, to name a
+              few. In addition, I’ve had the opportunity to be part of group
+              projects that emulated a similar work environment to a company
+              whilst having the space to make mistakes and be guided by expert
+              professors
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo">
+            <img
+              src="./assets/PHOTO-2024-10-23-21-36-42-removebg-preview.png"
+              class="footer__logo--img"
+              alt=""
+            />
+          </figure>
+        </a>
+        <div class="footer__social--list">
+          <a
+            href="https://github.com/nallxly"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/nallely-mar-alm?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a
+            href="mailto:nmarti50@pratt.edu"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            >Email</a
+          >
+          <a
+            href="./assets/WorkResume.pdf"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Resume</a
+          >
+        </div>
+        <div class="footer__copyright">Copyright © 2024 Created By Nállely</div>
+      </div>
+    </footer>
+  </body>
+</html>
