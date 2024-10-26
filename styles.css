@@ -99,6 +99,8 @@ section:nth-child(even) {
   margin-bottom: 20px;
 }
 
+/* NAVIGATION BAR */
+
 nav {
   height: 100px;
   width: 100%;
@@ -135,6 +137,8 @@ nav {
   height: 64px;
   width: auto;
 }
+
+/* ABOUT ME */
 
 #about-me {
   display: flex;
@@ -182,6 +186,7 @@ nav {
 .about-me__picture {
   width: 100%;
 
+  /* Improving my own picture */
   transform: scale(1.5);
   padding-top: 15px;
 }
@@ -271,6 +276,8 @@ table {
   }
 }
 
+/* TECH - STACK */
+
 .language__img {
   width: 100%;
   max-width: 100px;
@@ -315,6 +322,8 @@ table {
   opacity: 1;
 }
 
+/* Studies - Education */
+
 #studies{
   display: flex;
   flex-direction: column;
@@ -338,6 +347,8 @@ table {
   padding: 0;
   margin: 0;
 }
+
+/* PROJECTS */
 
 .project {
   margin-bottom: 135px;
@@ -426,6 +437,8 @@ table {
   color: #fff;
 }
 
+/* FOOTER */
+
 footer {
   background-color: #dfd6c5;
 }
@@ -475,6 +488,7 @@ footer {
   opacity: 1;
 }
 
+/* Small phones, tablets, large smartphones */
 @media (max-width: 768px) {
   nav {
     height: 68px;
@@ -518,6 +532,7 @@ footer {
   }
 }
 
+/* SMALL PHONES */
 @media (max-width: 540px) {
   .nav__link:not(:last-child) {
     display: none;
